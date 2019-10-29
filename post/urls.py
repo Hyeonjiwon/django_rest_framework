@@ -3,7 +3,6 @@ from rest_framework.routers import DefaultRouter
 from . import views
 
 #django rest framework -> router -> url
-
 router = DefaultRouter()
 router.register('post', views.PostViewSet)
 
